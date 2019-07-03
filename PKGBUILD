@@ -9,7 +9,7 @@ pkgdesc="AMD AM4 socket X370 chipset motherbroad NVMe/SATA RAID driver (DKMS)"
 arch=('i686' 'x86_64')
 url="https://www.amd.com/en/support/chipsets/amd-socket-am4/x370"
 license=('GPL2')
-depends=('dkms')
+depends=('dkms' 'fakeroot')
 makedepends=('linux-headers>=4.15')
 # conflicts=("${_pkgbase}")
 # install=${pkgname}.install
